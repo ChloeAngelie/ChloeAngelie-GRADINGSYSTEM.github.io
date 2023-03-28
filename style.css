@@ -1,0 +1,98 @@
+* {
+  font-family: 'Helvetica Neue';
+  box-sizing: border-box;
+}
+
+.__container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 35em;
+}
+
+.projectName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+}
+
+.upper_box {
+  height: 150px;
+  width: 500px;
+}
+
+.lower_box {
+  align-items: end;
+  height: 100px;
+  width: 500px;
+}
+
+.row { display: flex;}
+.grade {
+  color: #fff;
+  background: #da0fb8;
+}
+
+.grading_system {
+  padding: 20px;
+  color: #fff;
+  background: #da0fb8;
+  width: 150px;
+}
+
+#gradeForm, #calculate {
+  max-width: 500px;
+  padding: 15px;
+  border: 1px solid #da0fb8;
+  margin: 10px 0;
+  gap: 10em;
+  background: transparent;
+}
+
+#gradeForm , #gradeForm input {
+  display: block;
+  width: 100%;
+}
+
+#gradeForm input {
+  border: 1px solid #da0fb8;
+}
+
+#gradeForm label { 
+  margin: 100px 0;
+}
+
+#gradeForm input {
+  margin: 10px 0; 
+  padding: 10px;
+}
+
+#gradeForm input[type=submit] {
+  margin-top: 10px;
+  color: #fff;
+  border: 0;
+  background: #da0fb8;
+}
+
+#gradeForm input[type=number] { 
+  flex-grow: 1;
+}
+
+#calculate {
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+#calculate .grade { 
+  width: 120px; 
+}
+
+#calculate .row {
+  border: 2px solid #f1f1f1;
+  background: #fff;
+}
+
+#gradeAverage, #gradeRemarks, #gradeDescriptor { 
+  padding: 20px
+}
